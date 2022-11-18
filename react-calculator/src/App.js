@@ -21,9 +21,9 @@ function App() {
       <div className="calcWrapper">
         <Input input={input} />
         <div className="row">
+          <Button handleClick={addToInput}>7</Button>
           <Button handleClick={addToInput}>8</Button>
           <Button handleClick={addToInput}>9</Button>
-          <Button handleClick={addToInput}>7</Button>
           <Button handleClick={addToInput}>/</Button>
         </div>
         <div className="row">
